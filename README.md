@@ -39,6 +39,11 @@ Steps related to your role are shown and linked in the table below
 - [10. Pull Requests](#10-pull-requests)
 - [11. Pull Request Review \& Approval](#11-pull-request-review--approval)
 - [12. Delete This README if you haven't already](#12-delete-this-readme-if-you-havent-already)
+- [Workflow Flowcharts](#workflow-flowcharts)
+  - [General Flow](#general-flow)
+  - [Content Liason Flow](#content-liason-flow)
+  - [Dev Flow](#dev-flow)
+  - [Tester Flow](#tester-flow)
 
 
 # 1. Prerequisites
@@ -415,6 +420,19 @@ git push origin {branch-name}
 4. Once all reviewers have approved the Pull Request, an admin can finally merge the sim into the main branch.
 
 # 12. Delete This README if you haven't already
+
+# Workflow Flowcharts
+## General Flow
+<img title="" src="./README-assets/Sims-General-Flow-Chart.png" alt="" data-align="center">
+
+## Content Liason Flow
+<img title="" src="./README-assets/Content-Liaison-WorkFlow.png" alt="" data-align="center">
+
+## Dev Flow
+<img title="" src="./README-assets/DEV-Dev-WorkFlow.png" alt="" data-align="center">
+
+## Tester Flow
+<img title="" src="./README-assets/Tester-WorkFlow.png" alt="" data-align="center">
 
 <!--
 # 13. Appendix
