@@ -242,7 +242,7 @@ git fetch
 git switch {branch-name}
 ```
 
-//example: git switch ELAF1T2U4S5
+//example: git switch ELA-F1-T2-U4-SEC5-SIM1
 
 # 6. File Structure
 
@@ -256,11 +256,11 @@ git switch {branch-name}
    > {Subject} -> {Form} -> {Term} -> {Unit} -> [Your HTML File Here]
    > As you can see, the naming convention follows the file structure
    >
-   > //example: ELAF1T2U4S5 === ELA => Form1 => Term2 => Unit4 => ELAF1T2U4S5
+   > //example: ELA-F1-T2-U4-SEC5-SIM1 === ELA => Form1 => Term2 => Unit4 => Section5 => Simulation1 => ELA-F1-T2-U4-SEC5-SIM1
    >
    > ![](./README-assets/2026-05-13-105644.png)
    >
-   > //example: SSHISTF1T2U4S5 === SS => HIST => Form1 => Term2 => Unit4 => SSHISTF1T2U4S5
+   > //example: SS-HIST-F1-T2-U4-SEC5-SIM1 === SS => HIST => Form1 => Term2 => Unit4 => Section5 => Simulation1 => SS-HIST-F1-T2-U4-SEC5-SIM1
    >
    > ![](./README-assets/2026-05-13-105858.png)
    
@@ -364,7 +364,7 @@ git push
 If it is your first push on the branch, you should set the upstream with your first push using
 
 ```
-git push origin {branch-name}
+git push -u origin {branch-name}
 ```
 
 # 9. Leaving Comments
