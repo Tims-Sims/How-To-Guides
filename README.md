@@ -381,7 +381,7 @@ git push -u origin {branch-name}
 
    <img title="" src="./README-assets/be03ae3223ddb45120eb7daecd66a5e2bf740370.png" alt="" data-align="center">
 
-4. Copy the commit hash (the number next the the word Commit in the title) and view the changes in red and green (the Git Diff). Testers can also pull the changes and test that way.
+4. Copy the commit hash (the number next the the word Commit in the title) and view the changes in red and green (the Git Diff). Testers can also pull the changes and test that way ([See Pulling Changes](#7-pulling-changes)).
 
    <img title="" src="./README-assets/4b83c98699ce9167a49126e2683c61b9263214d4.png" alt="" data-align="center">
 
