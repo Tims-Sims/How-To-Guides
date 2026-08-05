@@ -185,6 +185,24 @@ You can pull changes both within the terminal and on VSCode. We will go through 
    > //example: Social Science, History, Form 1, Term 2, Unit 4, Section 5, Sim 1 === </br>
    >SS-HIST-F1-T2-U4-SEC5-SIM1
 
+   > ## Maths (MATH)
+   >
+   > Maths branches are named DIFFERENTLY. Maths does not use the F1-T2-U4 style. It uses the curriculum code — 4 numbers with dots, like `1.5.4.2`:
+   > 1. First number = the Form (the class year).
+   > 2. Second number = the Strand (the big maths area, like Measurement).
+   > 3. Third number = the Topic (like Area).
+   > 4. Fourth number = the Learning Outcome (the exact thing students learn).
+   >
+   > So a maths branch name looks like this: `MATH-1.1.1.1-SIM1`
+   > 1. Start with `MATH-`.
+   > 2. Then the 4-number code.
+   > 3. Then `-SIM` and a number. Always add `-SIM1` even if it is the only sim.
+   > 4. Never write `01` — just write `1`.
+   >
+   > You do NOT make up the code. It is written in the sim spec (in the GitHub issue). If it is not there, ask for it.
+   >
+   > The issue name and the pull request title must be exactly the same as the branch name.
+
 5. Open an issue (Top Bar -> Issues -> New Issue) and name it the same as the branch created
 
    <img title="" src="../README-assets/fe50699b483e33c2cb8de4e7b20c8f010789a3d3.png" alt="" data-align="center">
