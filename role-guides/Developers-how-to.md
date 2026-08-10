@@ -176,7 +176,18 @@ You can pull changes both within the terminal and on VSCode. We will go through 
    > //example: SSHISTF1T2U4S5 === SS => HIST => Form1 => Term2 => Unit4 => SSHISTF1T2U4S5
    >
    > ![](../README-assets/2026-05-13-105858.png)
-   
+
+   > ### Maths (MATH) File Structure
+   >
+   > MATH -> {Form} -> {Term} -> [Your HTML File Here]
+   > Maths has NO Unit, Section or Simulation folders — the path stops at the Term folder
+   >
+   > //example: MATH-1.1.1.1-SIM1 === MATH => Form1 => Term1 => MATH-1.1.1.1-SIM1.html
+   >
+   > ![](../README-assets/math-file-structure.png)
+   >
+   > NOTE: The code does NOT tell you the term — the sim spec / Breakdown Guide tells you which Term folder to use. If it is missing, ask.
+
 ### NOTE: You should only have ONE HTML file that you are working on <!-- omit from toc -->
 
 # 7. Committing Changes
