@@ -54,62 +54,62 @@ Use this checklist to test any interactive simulation before sign-off. Mark each
 - [ ] 6.6 Scores, labels, and feedback are consistent with one another.
 - [ ] 6.7 Unexpected or incorrect input never crashes the simulation; the user receives a clear recovery message.
 
-### 6.8 Inappropriate-language filtering
+## 7. Inappropriate-Language Filtering
 
-- [ ] 6.8.1 A prohibited word in a text answer shows a warning and clears the affected field.
-- [ ] 6.8.2 Only fields containing prohibited language are cleared; clean fields keep their content.
-- [ ] 6.8.3 Whole prohibited words are detected without false positives in harmless words (for example, `assume`).
-- [ ] 6.8.4 Filtering works for mixed case and common number/symbol substitutions (for example, `SwearWord`, `SWEARWORD`, `sw3ar`, and `s.w.e.a.r`).
-- [ ] 6.8.5 If user input is shown again in a review or summary, prohibited language is filtered or flagged and is not shown in shared or exported views.
+- [ ] 7.1 A prohibited word in a text answer shows a warning and clears the affected field.
+- [ ] 7.2 Only fields containing prohibited language are cleared; clean fields keep their content.
+- [ ] 7.3 Whole prohibited words are detected without false positives in harmless words (for example, `assume`).
+- [ ] 7.4 Filtering works for mixed case and common number/symbol substitutions (for example, `SwearWord`, `SWEARWORD`, `sw3ar`, and `s.w.e.a.r`).
+- [ ] 7.5 If user input is shown again in a review or summary, prohibited language is filtered or flagged and is not shown in shared or exported views.
 
-## 7. Input Limits
+## 8. Input Limits
 
-- [ ] 7.1 Character limits work when typing, pasting, and using autofill.
-- [ ] 7.2 Very long input does not break the layout, saved data, or scoring.
+- [ ] 8.1 Character limits work when typing, pasting, and using autofill.
+- [ ] 8.2 Very long input does not break the layout, saved data, or scoring.
 
-## 8. Stress Testing and Recovery
+## 9. Stress Testing and Recovery
 
-- [ ] 8.1 Rapid clicking does not create duplicate submissions or history entries, or break the simulation state.
-- [ ] 8.2 Rapid clicking **Submit** cannot bypass validation.
-- [ ] 8.3 Refreshing the page during a session does not create corrupted or contradictory state.
-- [ ] 8.4 Repeatedly opening and closing a modal or dialog does not cause visual glitches or leave the simulation stuck.
-- [ ] 8.5 If the simulation uses the internet, losing and restoring the connection does not leave it unusable.
+- [ ] 9.1 Rapid clicking does not create duplicate submissions or history entries, or break the simulation state.
+- [ ] 9.2 Rapid clicking **Submit** cannot bypass validation.
+- [ ] 9.3 Refreshing the page during a session does not create corrupted or contradictory state.
+- [ ] 9.4 Repeatedly opening and closing a modal or dialog does not cause visual glitches or leave the simulation stuck.
+- [ ] 9.5 If the simulation uses the internet, losing and restoring the connection does not leave it unusable.
 
-## 9. Accessibility
+## 10. Accessibility
 
-- [ ] 9.1 The full simulation can be used with a keyboard alone (Tab, Shift+Tab, Enter, Space, and Escape).
-- [ ] 9.2 The currently focused button or field is always visually clear.
-- [ ] 9.3 Correct/incorrect and pass/fail states use text or icons as well as colour.
-- [ ] 9.4 Zooming text with Ctrl/Cmd + `+` does not break the layout.
+- [ ] 10.1 The full simulation can be used with a keyboard alone (Tab, Shift+Tab, Enter, Space, and Escape).
+- [ ] 10.2 The currently focused button or field is always visually clear.
+- [ ] 10.3 Correct/incorrect and pass/fail states use text or icons as well as colour.
+- [ ] 10.4 Zooming text with Ctrl/Cmd + `+` does not break the layout.
 
-## 10. Browser Compatibility (Laptop)
+## 11. Browser Compatibility (Laptop)
 
-- [ ] 10.1 The simulation has been tested in each supported browser (Chrome, Firefox, and Edge, where supported).
-- [ ] 10.2 It has been tested in a normal-sized window and a maximized/full window.
-- [ ] 10.3 Appearance and behaviour are consistent across supported browsers.
+- [ ] 11.1 The simulation has been tested in each supported browser (Chrome, Firefox, and Edge, where supported).
+- [ ] 11.2 It has been tested in a normal-sized window and a maximized/full window.
+- [ ] 11.3 Appearance and behaviour are consistent across supported browsers.
 
-## 11. Performance and Stability
+## 12. Performance and Stability
 
-- [ ] 11.1 Typing, clicking, and changing screens feel responsive, with no noticeable lag.
-- [ ] 11.2 Animations and transitions are smooth.
-- [ ] 11.3 The simulation remains responsive after at least 15 minutes of use.
+- [ ] 12.1 Typing, clicking, and changing screens feel responsive, with no noticeable lag.
+- [ ] 12.2 Animations and transitions are smooth.
+- [ ] 12.3 The simulation remains responsive after at least 15 minutes of use.
 
-## 12. Data Handling on Shared Laptops
+## 13. Data Handling on Shared Laptops
 
-- [ ] 12.1 Closing the simulation tab or window clears all learner data.
+- [ ] 13.1 Closing the simulation tab or window clears all learner data.
 
-## 13. Content and Copy
+## 14. Content and Copy
 
-- [ ] 13.1 There are no spelling or grammar errors.
-- [ ] 13.2 The tone and reading level suit the intended audience.
-- [ ] 13.3 No placeholder text remains (for example, “Lorem ipsum”, “TODO”, or “[insert text]”).
-- [ ] 13.4 First-time users can understand the instructions without outside help.
-- [ ] 13.5 Built-in text, including titles, instructions, feedback, and errors, contains no profanity, slurs, or inappropriate language.
-- [ ] 13.6 Examples, sample data, and placeholder names are appropriate for the intended audience.
+- [ ] 14.1 There are no spelling or grammar errors.
+- [ ] 14.2 The tone and reading level suit the intended audience.
+- [ ] 14.3 No placeholder text remains (for example, “Lorem ipsum”, “TODO”, or “[insert text]”).
+- [ ] 14.4 First-time users can understand the instructions without outside help.
+- [ ] 14.5 Built-in text, including titles, instructions, feedback, and errors, contains no profanity, slurs, or inappropriate language.
+- [ ] 14.6 Examples, sample data, and placeholder names are appropriate for the intended audience.
 
-## 14. Debugging for Testing
+## 15. Debugging for Testing
 
-- [ ] 14.1 Any bugs found are included in detail below, with steps to reproduce, the expected result, and the actual output.
+- [ ] 15.1 Any bugs found are included in detail below, with steps to reproduce, the expected result, and the actual output.
 
 ### Bug Report Details
 
